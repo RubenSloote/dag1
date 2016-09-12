@@ -1,0 +1,51 @@
+body{
+     background-color:grey;
+     color: orange
+}
+
+.text {
+   color: orange;
+   font-size: 30px;
+   font-family: Courier;
+   border-bottom: 2px solid orange;
+   padding: 15px;
+}
+
+.head {
+   color: black;
+   border-bottom: 2px solid orange;
+   border-top: 2px solid orange;
+   font-family: 'Lobster', cursive;
+   font-size: 60px;
+   text-align: center;
+   background-color: white;
+   padding: 80px;
+}
+footer {
+  background-color: white;
+}
+#contact {
+  width: 80px;
+  margin: 20px;
+}
+.main{
+  display: flex;
+  width: 100vw;
+}
+.column-right{
+   flex: 2;
+   width: 50px;
+   border: 2px solid orange;
+
+}
+.column-left {
+   flex: 1;
+   margin: 10px;
+   padding: 10px;
+}
+.why{
+  font-family: Courier;
+}
+.what {
+  font-family: Courier;
+}
